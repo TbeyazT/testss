@@ -9,6 +9,8 @@ $(document).ready(function() {
       var discordPayload = {
         content: 'Visited IP: ' + ipAddress
       };
+
+        console.log(JSON.stringify(data, null, 2));
     
       // Send data to Discord webhook
       $.ajax({
